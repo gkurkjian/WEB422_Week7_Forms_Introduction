@@ -10,7 +10,7 @@ export default function NameformHookUseForm() {
 
     function submitForm(data) {
         console.log(`4.NameFormHookUseForm.js name submitted - useName: ${data.fullName}`)  // here will target the value the user entered which will be fullName
-        //console.log(data);  // here will bring the entire prototype of the data. Basically taking the JSON data and push it to API
+        //console.log(data);  // here will bring the entire prototype of the data. Basically taking the JSON data and push it to API.
     }
 
     return (

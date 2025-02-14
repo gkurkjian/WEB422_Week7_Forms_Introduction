@@ -3,7 +3,6 @@ import NameFormUseState from "./components/2.NameFormUseState";
 import NameFormUseEffect from "./components/3.NameFormUseEffect";
 import NameformHookUseForm from "./components/4.NameFormHookUseForm";
 
-
 export default function Home() {
   return (
     <>
