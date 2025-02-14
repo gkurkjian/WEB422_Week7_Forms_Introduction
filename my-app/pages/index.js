@@ -2,6 +2,8 @@ import BasicNameForm from "./components/1.BasicNameForm";
 import NameFormUseState from "./components/2.NameFormUseState";
 import NameFormUseEffect from "./components/3.NameFormUseEffect";
 import NameformHookUseForm from "./components/4.NameFormHookUseForm";
+import NameFormHookUseFormUseEffect from "./components/5.NameFormHookUseFormUseEffect";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <NameFormUseState /> <br />
       <NameFormUseEffect /> <br />
       <NameformHookUseForm /> <br />
+      <NameFormHookUseFormUseEffect /> <br />
     </>
   );
 }

@@ -24,7 +24,7 @@ export default function NameFormHookUseFormUseEffect() {
 
             <form onSubmit={handleSubmit(submitForm)}>
                 Full Name:  <br />
-                <input type="text" {...register('fullName')}></input> <br /><br />  {/* Here we're interperting with line 7 as a default name. Any updates will come from line 12 */}
+                <input type="text" {...register('fullName')}></input> <br /><br />  {/* Here we're interpreting with line 7 as a default name. Any updates will come from line 12 */}
                 <button type="submit">Submit</button>
             </form>
         </>
