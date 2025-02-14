@@ -17,7 +17,7 @@ export default function NameformHookUseForm() {
         <>
             <h4>4.NameFormHookUseForm.js</h4>
 
-            <form onClick={handleSubmit(submitForm)}>
+            <form onSubmit={handleSubmit(submitForm)}>
                 Full Name:  <br />
                 <input type="text" {...register('fullName')}></input> <br /><br />  {/* Here we're interperting with line 7 as a default name. Any updates will come from line 12 */}
                 <button type="submit">Submit</button>
