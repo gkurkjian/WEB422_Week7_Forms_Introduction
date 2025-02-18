@@ -22,7 +22,7 @@ export default function NameFormHookFormValidation() {
 
     return (
         <>
-            <h4>6.NameFormHookFormDetail.js</h4>
+            <h4>7.NameFormHookFormValidations.js</h4>
 
             {/* This is the new and better version. Not From The WEB422 Website! If you want to see the old version it's here: https://github.com/gkurkjian/WEB422-Week6-Practice/blob/main/pages/components/7NameFormHookFormValidation.js */}
             <form onSubmit={handleSubmit(submitForm)}>
